@@ -1,0 +1,24 @@
+.faq-content h2 {
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.faq-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-buttons button {
+    border: none;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(30, 51, 119);
+    color: white;
+    font-size: 15px;
+}
+.faq-buttons button a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,134 @@
+.about-paralegal-element {
+  margin-bottom: 20px;
+}
+
+.about-paralegal-element h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.about-paralegal-element p {
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.job-description {
+  margin-bottom: 20px;
+}
+.job-description h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.job-description p {
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.responsibilities {
+  margin-bottom: 20px;
+}
+.responsibilities h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.responsibilities ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.requirements {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.requirements h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.requirements ul li {
+  line-height: 35px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+.opportunity-employer {
+  margin-bottom: 20px;
+}
+.opportunity-employer h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.opportunity-employer p {
+  line-height: 35px;
+  font-size: 18px;
+}
+
+.job-type {
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.benefits {
+  margin-bottom: 35px;
+}
+.benefits span {
+margin-top: 35px;
+font-size: 20px;
+}
+.benefits ul li {
+  line-height: 35px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.schedule {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.schedule ul li {
+  line-height: 35px;
+  font-size: 18px;
+  margin-left: 40px
+}
+.pay-types {
+  margin-top: 35px;
+  font-size: 20px;
+}
+.pay-types ul li {
+  line-height: 35px;
+  font-size: 18px;
+  margin-left: 40px
+}
+.covid-19 {
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+}
+.post h4 {
+  width: 300px;
+  font-size: 15px;
+  color: rgb(30, 51, 119);
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.related-posts {
+  margin-top: 10px;
+}
+.related-posts h3 {
+  margin-bottom: 30px;
+}
+.prev-icon img {
+  width: 15px;
+}
+.next-icon img {
+  width: 15px;
+}
+.prev-icon {
+  width: 15px;
+  transform: rotate(180deg);
+}

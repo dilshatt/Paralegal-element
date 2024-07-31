@@ -1,0 +1,97 @@
+.contacts-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.contacts-item img {
+  width: 50px;
+  background-color: white;
+}
+
+
+.consult-btn button {
+  background-color: rgb(30, 51, 119);
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  border: none;
+  font-size: 12px;
+}
+.consult-btn button:hover {
+  background-color: rgb(21, 36, 85);
+  scale: 1.05;
+  transition: 0.7s;
+}
+.consult-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  border-style: center;
+  
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-item input {
+  width: 717px;
+  height: 40px;
+  background-color: #eff2e8fd;
+  border: 1px solid #000;
+  font-size: 15px;
+  padding-left: 20px;
+  
+}
+
+.data-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+
+
+#form-area-1 {
+  background-color: #eff2e8fd;
+  border: 1px solid #000;
+  font-size: 10px;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 717px;
+  height: 80px;
+}
+.form-area-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input >label {
+  color: #fff;
+  font-size: 18px;
+
+}
+
+.form-btn button {
+  border: none;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  background-color: rgb(21, 36, 85);
+  color: white;
+  text-transform: capitalize;
+}
+

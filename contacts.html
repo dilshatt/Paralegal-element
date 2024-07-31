@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./contacts.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header-bg">
+        <div class="header">
+          <div class="logo">
+            <a href="./index.html"
+              ><img src="/img/pngwing.com.png" alt="" />
+              <h1>Paralegal Element</h1></a
+            >
+          </div>
+          <ul class="list">
+            <li>services</li>
+            <li>
+              <a href="./team.html">team</a>
+            </li>
+            <li>
+              <a href="./career.html">career</a>
+            </li>
+            <li>
+              <a href="./reviews.html">reviews</a>
+            </li>
+            <li><a href="./news.html">news</a></li>
+            <li><a href="./contacts.html">contacts</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li>eng/rus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="contacts-content">
+        <div class="container">
+          <div class="consult-btn">
+            <button>click to schedule a consultation</button>
+          </div>
+          <div class="contacts-items">
+            <div class="contacts-item">
+              <img src="./img/phone.svg" alt="phone" />
+
+              <p>(571) 489-3980</p>
+            </div>
+            <div class="contacts-item">
+              <img src="./img/email.svg" alt="email" />
+
+              <p>paralegal.lawus@gmail.com</p>
+            </div>
+            <div class="contacts-item">
+              <img src="./img/home.svg" alt="home" />
+
+              <div>
+                <p>14616 Endsley Turn</p>
+                <p>Woodbridge, VA 22193</p>
+              </div>
+            </div>
+            <div class="contacts-item">
+              <img src="./img/time.svg" alt="time" />
+
+              <div>
+                <p>Mon-Fri</p>
+                <p>9 am-6 pm</p>
+              </div>
+            </div>
+          </div>
+          <div class="data-form">
+            <form id="emailForm">
+              <div class="form-item">
+                <label for="form-input-1">First name</label>
+                <input type="text" id="form-input-1" placeholder="First name" />
+              </div>
+              <div class="form-item">
+                <label for="form-input-2">Last name</label>
+                <input type="text" id="form-input-2" placeholder="Lasr name" />
+              </div>
+              <div class="form-item">
+                <label for="form-input-3">Email Address</label>
+                <input type="text" id="form-input-3" placeholder="Email Address" />
+              </div>
+              <div class="form-item">
+                <label for="form-input-4">Phone Number</label>
+                <input type="text" id="form-input-4" placeholder="Phone Number" />
+              </div>
+              <div class="form-area-item">
+                <label for="form-area-1">How can we help you?</label>
+                <textarea id="form-area-1" placeholder="How can we help you"></textarea>
+              </div>
+              <div class="form-btn">
+                <button>submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="subscribe_block">
+            <div class="subscribe_cont">
+              <div class="left_part">
+                <h3>Be the first to know our news!</h3>
+                <p>Once a month, you will hear about our latest features and the hottest news</p>
+                <p>And no spam, of cource.</p>
+              </div>
+              <div class="right_part">
+                <div class="input">
+                  <label for="emailInput"> Your email</label>
+                  <input type="text" id="emailInput" />
+                  <button>SUBSCRIBE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_ìtems">
+            <p>I.S. Law Firm, PLLC</p>
+            <p>3930 Walnut St #200 Fairfax, VA 22030</p>
+            <p>(703) 527-1779</p>
+            <p>law@islawfirm.com</p>
+            <p>Opening Hours</p>
+            <p>Mon-Fri 9:30am-5:30pm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "gqLVxp00G2IksRGa8",
+      });
+    })();
+  </script>
+  <script src="./index.js"></script>
+</html>

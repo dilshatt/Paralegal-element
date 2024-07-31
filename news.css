@@ -1,0 +1,26 @@
+.news-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.news-image {
+  width: 360px;
+  height: 155px;
+  background: url("https://www.islawfirm.com/wp-content/uploads/2021/02/Biden-400x225.jpg");
+}
+.news-item {
+    border: 1px solid black;
+    width: 360px;
+    border-bottom: 3px solid black;   
+    padding: 10px;
+}
+.news-item h3 {
+    font-size: 20px;
+    color: rgb(63, 63, 123);
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.news-item p  {
+margin-bottom: 15px;
+margin-top: 15px;
+}

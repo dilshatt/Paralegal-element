@@ -1,0 +1,59 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.team_main_info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.personal_info {
+    max-width: 800px;
+
+}
+
+.personal_info>h3 {
+    font-size: 35px;
+}
+
+.personal_info>p {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.extra_info>p {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.resume-lists {
+    display: flex;
+   max-width: 1200px;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 30px;
+
+}
+.resume-list {
+    font-size: 20px;
+}
+
+.resume-list ul li {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+
+.resume-list h4 {
+    margin-bottom: 30px;
+    color: rgb(70, 70, 93);
+    font-size: 23px;
+}
+
+.resume-list ul {
+    padding-left: 40px;
+}

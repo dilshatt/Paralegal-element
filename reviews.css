@@ -1,0 +1,43 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 100,
+  'opsz' 100
+}
+
+.reviews-title h2  {
+font-size: 45px;
+text-align: center;
+margin-bottom: 30px;
+}
+.review-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.review-item {
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+}
+.review-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.review-item p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.read-more {
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgb(87, 87, 205);
+    text-transform: capitalize;
+}
+.rating  span {
+    color: yellow;
+}

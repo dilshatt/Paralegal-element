@@ -1,0 +1,41 @@
+.career-items {
+  display: flex;
+  align-items: start;
+}
+
+.career-item {
+  width: 400px;
+  border: 1px solid #000;
+  border-bottom: 3px solid black;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.career-title {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.career-item p {
+  width: 350px;
+  font-size: 17px;
+  line-height: 40px;
+  margin: auto;
+}
+
+.career-item h3 {
+  font-size: 23px;
+  width: 350px;
+  margin-bottom: 50px;
+  margin: 10px auto;
+  color: rgb(30, 51, 119);
+}
+.career-item h3 a {
+  font-size: 23px;
+  width: 350px;
+  margin-bottom: 50px;
+  margin: 10px auto;
+  color: rgb(30, 51, 119);
+  text-decoration: none;
+}

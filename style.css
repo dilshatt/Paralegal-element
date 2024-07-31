@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+font-family: "Roboto" sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/*header*/ 
+
+.logo a img {
+    width: 60px;
+    height: 60px;
+}
+
+.list {
+    list-style-type: none;
+    display: flex; 
+    width: 500px;
+    justify-content: space-between;
+    font-family: "Roboto";
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+.list li { 
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.list li a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+/* .list li:hover {
+    color: rgba(255, 183, 0);
+    scale: 1.1;
+    transition: 0.5s;
+} */
+.header {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.header-bg {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+    height: 80px;
+    padding-top: 30px;
+    margin-bottom: 150px;
+
+}
+
+/* Hero */
+
+.hero {
+    background: url("./img/United_States_Capitol_west_front_edit2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+/* first block */
+
+.first_block>p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.first_block {
+    margin-top: 40px;
+}
+/* contact button */
+
+.contact_btn {
+    background-color: rgb(0, 0, 93);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+.contact_btn>button {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-top: 13px;
+    text-transform: uppercase;
+
+}
+
+/* services */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 50px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.service_item {
+    background-image: url(https://www.islawfirm.com/wp-content/uploads/2022/06/asylum-3.png);
+    height: 170px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service_item>p {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-left: 20px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+/* Footer */
+
+.footer {
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 503px;
+    margin-top: 100px;
+
+}
+
+.subscribe_block {
+    display: flex;
+    align-items: center;
+    background: url("https://www.islawfirm.com/wp-content/uploads/2022/07/fon-effect.png");
+    height: 245px;
+
+}
+
+.subscribe_cont {
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.left_part>h3 {
+    color:#fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.left_part>p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.right_part  .input>input {
+    width: 510px;
+    height: 40px;
+    background-color: #d7d2c5;
+    border: 1px solid #000;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.right_part .input>label {
+    color: #fff;
+    font-size: 18px;
+}
+
+.right_part .input {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_part .input>button {
+    width: 125px;
+    height: 43px;
+    background-color: #8f2a2b;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.footer_ìtems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.footer_ìtems>p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+
+/*Practice Areas Block*/
+
+#practice-areas-block {
+    background-color: #fff;
+    position: absolute;
+    border: 1px solid rgb(0,0,0,0.2);
+    display: none;
+
+}
+
+#practice-areas-list p {
+    padding-top: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid rgb(0,0,0,0.2);
+}
+
+
+

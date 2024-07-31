@@ -1,0 +1,44 @@
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 80px ;
+}
+.immigration-links {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ gap: 25px;
+   
+}
+.immigration-links .link button {
+width: 350px;
+height: 40px;
+background-color: rgb(30, 51, 119);
+border: none;
+}
+
+.immigration-links .link button a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.immigration-info p {
+    font-size: 18px;
+    line-height: 38px;
+
+}
+.immigration-image p {
+    font-size: 18px;
+    line-height: 38px;
+}
+.immigration-image {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;    
+}
+
+.immigration-image img {
+width: 400px;
+height: 245px;
+}
